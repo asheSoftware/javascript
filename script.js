@@ -14,3 +14,8 @@ console.log(name);
 console.log($address);
 console.log(state);
 console.log(zip);
+//sting concation 
+let frist_name="Ashenafi";
+let last_name="Tesfaye";
+let full_name;
+console.log("Hello from console your full name is"+" "+frist_name+" "+last_name+" ");
