@@ -36,3 +36,16 @@ console.log(name1-name2);
 console.log(name1+name2);
 //number is implicitly converted in to string
 console.log(name1+number);
+//primitive data types
+let employe=['ashenafi','dajane','argawi'];
+let code=function code()
+{
+    console.log("hello from the function");
+}
+let person={
+    name4:"ashenafi",
+    fatherN:"tesfaye"
+}
+console.log(typeof(employe));
+console.log(typeof(code));
+console.log(typeof(person));
