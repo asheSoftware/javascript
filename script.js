@@ -49,3 +49,32 @@ let person={
 console.log(typeof(employe));
 console.log(typeof(code));
 console.log(typeof(person));
+//Array
+//how to crate an array in javascript 
+// i)By array literal
+var student_name=['ase','ashenafi','asen','ambachewu'];
+var i;
+for(i=0;i<student_name.length;i++)
+{
+    console.log(student_name[i]);
+}
+//JavaScript Array directly (new keyword)
+var student_grade=new Array();
+student_grade[0]=3.4;
+student_grade[1]=3.5;
+student_grade[2]=3.5;
+student_grade[3]=3.0;
+student_grade[4]=3.6;
+student_grade[5]=3.8;
+var i;
+for(i=0;i<student_grade.length;i++)
+{
+    console.log(student_grade[i]);
+}
+//JavaScript array constructor (new keyword)
+var student_state=new Array("oromia","Amara","somali","tigray");
+var j;
+for(j=0;j<student_state.length;j++)
+{
+    console.log(student_state[j]);
+}
