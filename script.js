@@ -78,3 +78,31 @@ for(j=0;j<student_state.length;j++)
 {
     console.log(student_state[j]);
 }
+//function
+//decelaretion ,invoke,return,parameters,expression
+function nameOf_student()
+{
+console.log("Ashenafi tesfaye");
+console.log("Assefa Demeke");
+console.log("Berhanu Hadis");
+console.log("Ambachewu Tareqeny");
+
+}
+nameOf_student();
+
+
+
+function sumOf_number()
+{
+    var sum=20+78;
+    return sum;
+}
+console.log(sumOf_number());
+
+function mulOf_number(num1,num2)
+{
+    var mul=num1*num2;
+    return mul;
+
+}
+console.log(mulOf_number(10,49));
