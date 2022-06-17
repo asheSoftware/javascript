@@ -28,4 +28,11 @@ let mod=number1%number2;
 console.log(sum);
 console.log(sub);
 console.log(mod);
-//implicity converstion
+//implicity type converstion
+let name1="ashenafi";
+let name2="tesfaye";
+let number=8989;
+console.log(name1-name2);
+console.log(name1+name2);
+//number is implicitly converted in to string
+console.log(name1+number);
