@@ -124,11 +124,34 @@ gradute.departemt="software"
 
 console.log(gradute.id+" "+gradute.name+" "+gradute.departemt)
 // iii) By using an Object constructor
-function dbu(name,slaray,address)
+/*function dbu(name,slaray,address)
 {
     this.name=name;
     this.slaray=slaray;
     this.address=address;
 }
 let e=dbu("ashenafi",400,"addis abeba");
-console.log(e.name,e.slaray,e.address);
+console.log(e.name,e.slaray,e.address);*/
+//logical operaters
+// logical And
+let day="monday";
+let salary=6000;
+if(day==="monday"&&salary==6000)
+{
+    console.log(" both condition is true");
+
+}
+else{
+    console.log("both or one of them is false");
+}
+//logical OR
+let day1="sunday";
+let namee="ashenefi";
+if(day1=="sunday" || namee==="ashenafii")
+{
+    console.log("Display one of two condition is true");
+}
+else
+{
+    console.log("Display if both condition is false");
+}
