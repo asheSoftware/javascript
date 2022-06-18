@@ -194,5 +194,29 @@ let num3=20+null;
 let num4=20+undefined;
 console.log(num3);
 console.log(num4);
+//String
+//CharAt()
+var str="javascript";  
+console.log(str.charAt(2));  
 
-
+//JavaScript String concat(str) Method
+var s1="javascript ";  
+var s2="concat example";  
+var s3=s1.concat(s2);  
+console.log(s3);  
+//JavaScript String indexOf(str) Method
+var s1="javascript from javatpoint indexof";  
+var n=s1.indexOf("from");  
+console.log(n);
+//JavaScript String lastIndexOf(str) Method
+var s1="javascript from javatpoint indexof";  
+var n=s1.lastIndexOf("java");  
+console.log(n);
+//JavaScript String toUpperCase() Method
+var s1="JavaScript toUpperCase Example";  
+var s2=s1.toUpperCase();  
+console.log(s2);
+//JavaScript String slice(beginIndex, endIndex) Method
+var s1="abcdefghigklmn"
+var s2=s1.slice(2,5);
+console.log(s2);
