@@ -155,3 +155,17 @@ else
 {
     console.log("Display if both condition is false");
 }
+//Boolean
+let text="hello";
+if(text)
+{
+    console.log("Hello form the console ");
+}
+let textf=0;
+if(textf)
+{
+    console.log("hello form the console if true");
+}
+else{
+    console.log("Display if conditon is false");
+}
