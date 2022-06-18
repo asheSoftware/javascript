@@ -173,3 +173,18 @@ else{
 let result=9;
 result%2==0 ? console.log("even number") :
 console.log("Odd number");
+//assing non primitive value to a variable is done by reference
+let num1=678;
+let num2=234;
+num2=90;
+console.log(num1);
+console.log(num2);
+let obj={
+    id:1118,
+    name:"ashe"
+}
+let person1=obj;
+console.log(person1.id+" "+person1.name);
+person1.id=1000;
+person1.name="argawu";
+console.log(obj.id+"  "+obj.name);
