@@ -169,3 +169,7 @@ if(textf)
 else{
     console.log("Display if conditon is false");
 }
+//condition ?(true):(false)
+let result=9;
+result%2==0 ? console.log("even number") :
+console.log("Odd number");
