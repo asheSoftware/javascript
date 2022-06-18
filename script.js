@@ -188,3 +188,11 @@ console.log(person1.id+" "+person1.name);
 person1.id=1000;
 person1.name="argawu";
 console.log(obj.id+"  "+obj.name);
+//different between null and undefiend
+
+let num3=20+null;
+let num4=20+undefined;
+console.log(num3);
+console.log(num4);
+
+
