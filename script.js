@@ -220,3 +220,14 @@ console.log(s2);
 var s1="abcdefghigklmn"
 var s2=s1.slice(2,5);
 console.log(s2);
+//Global math
+let number12=0.12345;
+console.log(Math.floor(number12));
+let number13=0.12345;
+console.log(Math.ceil(number12));
+let number14=16;
+console.log(Math.sqrt(number14));
+console.log(Math.min(1,2,3,5,0.8));
+console.log(Math.max(8,90 ,889,78,890));
+console.log(Math.random());
+console.log(Math.abs(-44));
