@@ -231,3 +231,14 @@ console.log(Math.min(1,2,3,5,0.8));
 console.log(Math.max(8,90 ,889,78,890));
 console.log(Math.random());
 console.log(Math.abs(-44));
+//Date in javascript
+let date=new Date();
+console.log(date);
+let mounth=date.getMonth();
+let days=date.getDate();
+let years=date.getFullYear();
+let milisecond=date.getMilliseconds();
+console.log(mounth);
+console.log(days);
+console.log(years);
+console.log(milisecond);
