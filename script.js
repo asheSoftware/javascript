@@ -106,3 +106,29 @@ function mulOf_number(num1,num2)
 
 }
 console.log(mulOf_number(10,49));
+//Object
+// i)By object literal
+let emp={
+    id:1234,
+    name3:"ashenafi",
+    address:"Addis Abeba"
+    
+   
+}
+console.log(emp.id+" "+emp.name3+" "+emp.address);
+// ii)By creating instance of Object
+var gradute=new Object();
+gradute.id=4567,
+gradute.name="ashenafi",
+gradute.departemt="software"
+
+console.log(gradute.id+" "+gradute.name+" "+gradute.departemt)
+// iii) By using an Object constructor
+function dbu(name,slaray,address)
+{
+    this.name=name;
+    this.slaray=slaray;
+    this.address=address;
+}
+let e=dbu("ashenafi",400,"addis abeba");
+console.log(e.name,e.slaray,e.address);
