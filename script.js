@@ -285,11 +285,17 @@ exist=true;
 }
 return exist;
 }
+function removeitem(list)
+{
+    console.log('you delete "${list[list.length-1]}"from array');
+    list.pop();
+
+}
 
 additem(todolist);
 additem(todolist);
 additem(todolist);
-additem(todolist);
+removeitem(todolist);
 
 console.log(todolist);
 
