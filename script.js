@@ -257,6 +257,7 @@ console.log(todolist);
 let arrayname=[1,2,3,4,45,78,89];
 console.log(arrayname);
 */
+/*
 function additem(arr)
 {
     let answer=prompt("what like to do toDay?");
@@ -297,5 +298,58 @@ additem(todolist);
 additem(todolist);
 removeitem(todolist);
 
-console.log(todolist);
+console.log(todolist);*/
+//string method 
+//String length
+// defining a string
+let sentence = "I love ethiopian.";
 
+// returns number of characters in the sentence string
+let len = sentence.length;
+
+console.log(len);
+
+// Output:
+// 17
+let string2 = "javascript";
+
+// assigning a value to string length property
+string2.length = 5;
+
+// doesn't change the original string
+console.log(string2); // javacript
+
+// returns the length of 'javascript'
+console.log(string2.length); // 10
+//charAt()
+let str1="hello ashenafi";
+let pos=str1.charAt(9);
+console.log(pos);//e
+//concat
+let pass="hello i am ashenafi";
+let pass1="i like to code";
+let fpass=pass.concat(" ",pass1);
+console.log(fpass);
+//endsWith
+let end="hello i am ashefi i gradute from debre berhian.";
+let endd=end.endsWith("debre berhian.");
+console.log(endd);//return ture
+//includes()
+let incl="Hello this is javasript";
+let checkincludes=incl.includes("this");
+let checkincludes1=incl.includes("javaa");
+console.log(checkincludes);//retrun true
+console.log(checkincludes1);//retrun false
+//indexOf()
+let indexoff="hello the programmer all over the world";
+let indexcheck=indexoff.indexOf("programmer");
+console.log(indexcheck);//return the first index of programmer that is 10
+//match()
+const message = "JavaScript is a fun programming language.";
+
+// regular expression that checks if message contains 'programming'
+const exp = /programming/;
+
+// check if exp is present in message
+let result1 = message.match(exp);
+console.log(result1);
