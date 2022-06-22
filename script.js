@@ -242,3 +242,54 @@ console.log(mounth);
 console.log(days);
 console.log(years);
 console.log(milisecond);
+//MDN
+let todolist=[];
+/*
+function additem(arr,item)
+{
+    arr.push(item);
+}
+additem(todolist,"hello ashenafi");
+additem(todolist,"make moneny");
+
+console.log(todolist);
+
+let arrayname=[1,2,3,4,45,78,89];
+console.log(arrayname);
+*/
+function additem(arr)
+{
+    let answer=prompt("what like to do toDay?");
+    
+    let correct=answer.toLowerCase().trim();
+   if(checkdublicate(arr,correct))
+   {
+    arr.push(answer);
+   }
+   else{
+       alert("the item is already exist");
+   }
+
+}
+
+function checkdublicate(arr,item)
+{
+let exist=false;
+let index=arr.indexOf(item);
+if(index!=-1)
+{
+exist=false;
+}
+else {
+exist=true;
+}
+return exist;
+}
+
+additem(todolist);
+additem(todolist);
+additem(todolist);
+additem(todolist);
+
+console.log(todolist);
+
